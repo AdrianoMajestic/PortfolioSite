@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adrianomajestic.github.io/PortfolioSite/sitemap.xml
