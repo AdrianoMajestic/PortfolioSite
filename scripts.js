@@ -13,7 +13,13 @@ themeToggle.addEventListener('click', () => {
     localStorage.setItem('theme', newTheme);
     updateButtonText(newTheme);
 });
-
+document.querySelector('.contact-form').addEventListener('submit', function() {
+    gtag('event', 'generate_lead', {
+        'event_category': 'form',
+        'event_label': 'contact_page'
+    });
+    alert('Данные отправлены и событие зафиксировано!');
+});
 function updateButtonText(theme) {
     themeToggle.textContent = theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode';
 }
