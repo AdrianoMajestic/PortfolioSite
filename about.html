@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне | Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Обо мне | Skills & Experience</title>
+    <meta name="description" content="Узнайте больше о моем пути в разработке, стеке технологий и профессиональных достижениях.">
+    <meta name="author" content="Соловицкий Адриан">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO.</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <button id="theme-toggle">☀️ Light Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card" style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+            <div style="width: 250px; height: 250px; border-radius: 50%; background: #1e2530; overflow: hidden; border: 2px solid var(--accent);">
+                <img src="img/1.webp" alt="Мое фото" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex: 1; min-width: 300px;">
+                <h1>Соловицкий Адриан</h1>
+                <p style="color: var(--accent); font-weight: bold;">Frontend Developer & UI Designer</p>
+                <p style="margin-top: 1rem;">Более 3 лет опыта в создании высоконагруженных интерфейсов. Моя цель — сделать интернет доступным и красивым для каждого.</p>
+            </div>
+        </div>
+
+        <h2 style="margin: 3rem 0 1.5rem;">Мои навыки</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Frontend</h3>
+                <ul style="margin-left: 20px; color: var(--text-secondary);">
+                    <li>HTML / CSS / JS</li>
+                    <li>React / Vue</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Design</h3>
+                <ul style="margin-left: 20px; color: var(--text-secondary);">
+                    <li>Figma / Adobe XD</li>
+                    <li>UI/UX Прототипирование</li>
+                    <li>Motion Design</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
