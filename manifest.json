@@ -1,0 +1,21 @@
+{
+  "short_name": "Portfolio",
+  "name": "Digital Portfolio: Web Developer",
+  "icons": [
+    {
+      "src": "img/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "img/og-image.jpg",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000"
+}
